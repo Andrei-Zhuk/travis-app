@@ -2,7 +2,8 @@ sudo: false
 
 notifications:
   webhooks:
-    urls: - http://bed36da9.ngrok.io
+    urls:
+      - http://bed36da9.ngrok.io
 
 language: node_js
 node_js:
