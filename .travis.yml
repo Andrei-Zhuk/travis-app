@@ -3,7 +3,7 @@ sudo: false
 notifications:
   webhooks:
     urls:
-      - http://bed36da9.ngrok.io
+      - https://telegram-bobby-bot.herokuapp.com
 
 language: node_js
 node_js:
