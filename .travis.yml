@@ -4,6 +4,11 @@ notifications:
   webhooks:
     urls:
       - https://telegram-bobby-bot.herokuapp.com
+    on_success: always
+    on_failure: always
+    on_start: always
+    on_cancel: always
+    on_error: always
 
 
 language: node_js
